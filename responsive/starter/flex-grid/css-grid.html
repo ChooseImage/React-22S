@@ -33,40 +33,13 @@
       }
 
       .container--1 {
-     
-
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 30px;
+        font-size: 40px;
         margin: 40px;
 
         /* CSS GRID */
-        display:grid;
-        /* grid-template-columns: 200px 200px 1fr 100px;
-        grid-template-columns: 3fr 1fr 1fr 1fr; */
-        /* grid-template-columns: 3fr 1fr 1fr auto; */
-        grid-template-columns: repeat(4, 1fr);
-        /* grid-template-rows: 300px 200px; */
-        grid-template-rows: 1fr 1fr;
-     
-
-        column-gap: 20px;
-        row-gap: 60px;
-        display:none;
-      }
-
-      .el--8 {
-        grid-column: 2 / 3;
-        grid-row: 1/2;
-      }
-
-      .el--2{
-        grid-column: 1/span 1;
-        /* Span the whole row */
-        grid-column: 1/-1;
-
-        grid-row: 2/3;
       }
 
       .container--2 {
@@ -76,32 +49,10 @@
         font-size: 40px;
         margin: 100px;
 
-        width: 700px;
+        width: 1000px;
         height: 600px;
 
         /* CSS GRID */
-        display: grid;
-        grid-template-columns: 125px 200px 125px;
-        grid-template-rows: 250px 100px;
-        gap: 50px;
-
-        /* Aligning tracks inside container: distributing 
-        empty space */
-
-        justify-content: center;
-        /* justify-content: space-between; */
-        align-content: center;
-
-       /* Aligning items INSIDE cells: moving 
-       items around inside cells */
-       align-items: center;
-       justify-items: center;
-
-      }
-
-      .el--3 {
-        align-self: end;
-        justify-self: end;
       }
     </style>
   </head>
@@ -113,7 +64,7 @@
       <div class="el el--4">(4) are</div>
       <div class="el el--5">(5) amazing</div>
       <div class="el el--6">(6) languages</div>
-      <!-- <div class="el el--7">(7) to</div> -->
+      <div class="el el--7">(7) to</div>
       <div class="el el--8">(8) learn</div>
     </div>
 
