@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>hero</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        html{
+            font-family:'Rubik', sans-serif;
+            color: #444;
+        }
+
+        .container{
+            margin: 0 auto;
+            width:1200px;
+        }
+
+        header {
+            /* background-color: orangered; */
+            height:100vh;
+            position:relative;
+            color:white;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(142, 112, 138, 0.6)), url(hero.jpg);
+            background-size:cover;
+        }
+
+        nav {
+            font-size:20px;
+            font-weight:700;
+            display:flex;
+            justify-content:space-between;
+            padding-top: 32px;
+            /* background-color: green; */
+            /* background-image: linear-gradient(to right, red, blue); */
+        }
+
+        .header-container{
+            width:1200px;
+            position:absolute;
+
+            left:50%;
+            top:50%;
+            /* background-color: violet; */
+
+            transform: translate(-50%, -50%);
+        }
+
+        .header-container-inner {
+            width:50%;
+            /* background-color: bisque; */
+        }
+
+        h1{
+            font-size: 52px;
+            margin-bottom:32px;
+            
+        }
+
+        p {
+            font-size:20px;
+            line-height: 1.6;
+            margin-bottom:48px;
+        }
+
+        .btn:link,
+        .btn:visited {
+            font-size:20px;
+            font-weight: 600;
+            background-color: #e67e22;
+            color:white;
+            text-decoration: none;
+            display:inline-block;
+            padding:16px 32px;
+            border-radius: 9px;
+        }
+
+        h2{
+            font-size:44px;
+            margin-bottom:48px;
+
+        }
+
+        section{
+            padding:96px 0;
+            background-color: #f7f7f7;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div>LOGO</div>
+            <div>NAVIGATION</div>
+        </nav>
+
+        <div class="header-container">
+            <div class="header-container-inner">
+            <h1>This is a tag line</h1>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. 
+                Iste eius ipsa ipsam veniam velit
+                 doloribus sint, quos, enim nisi 
+                 cum voluptatibus maiores nobis 
+                 maxime porro eos dolore, consequuntur
+                  eaque impedit?
+            </p>
+            <a href="#" class="btn">Start here</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>
+                Some random heading
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Nobis fugit itaque sunt provident exercitationem 
+                quia, repudiandae est rem? Laborum saepe eveniet 
+                doloremque aut, magnam et 
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Nobis fugit itaque sunt provident exercitationem 
+                quia, repudiandae est rem? Laborum saepe eveniet 
+                doloremque aut, magnam et 
+                rerum 
+                rerum nobis aspernatur dolorem necessitatibus.
+            </p>
+        </div>
+    </section>
+</body>
+</html>
